@@ -83,7 +83,7 @@ function calculate(){
 
 	ipei = ipei + checksum(ipei);
 
-	document.getElementById("ipei").value = ipei
+	document.getElementById("ipei").value = vipuiFirstBinComplete + " " + vipuiLastBinComplete
 
 	if (document.getElementById("verbose").checked) {
 		document.getElementById("verboseBox").className = "show";
